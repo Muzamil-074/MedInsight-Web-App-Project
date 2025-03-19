@@ -6,7 +6,7 @@ function Hero() {
   const router = useRouter();  // Initialize the useRouter hook from next/navigation
 
   const handleLoginClick = () => {
-    router.push('/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard');  // Redirect to /dashboard when Login is clicked
+    router.push('/sign-in?redirect_url=https%3A%2F%2Fmed.muzamildars.xyz%2Fdashboard');  // Redirect to /dashboard when Login is clicked
   };
   const handleLearnMore =()=>{
     router.push('/features')

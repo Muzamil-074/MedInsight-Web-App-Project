@@ -9,11 +9,11 @@ function Header() {
   const router = useRouter();  // Initialize the useRouter hook from next/navigation
 
   const handleLoginClick = () => {
-    router.push('/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard');  // Redirect to /dashboard when Login is clicked
+    router.push('/sign-in?redirect_url=https%3A%2F%2Fmed.muzamildars.xyz%2Fdashboard');  // Redirect to /dashboard when Login is clicked
   };
 
   const handleSignUpClick = () => {
-    router.push('/sign-up?redirect_url=http%3A%2F%2Flocalhost%3A3000%2Fdashboard');  // Redirect to /dashboard when Sign Up is clicked
+    router.push('/sign-up?redirect_url=https%3A%2F%2Fmed.muzamildars.xyz%2Fdashboard');  // Redirect to /dashboard when Sign Up is clicked
   };
   return (
     <header className="flex justify-between items-center py-4 px-8 bg-[#020a10] sticky top-0 z-50">
